@@ -10,11 +10,11 @@
       "autofac",
       "mediatr"
     ],
-    "licenseUrl": "https://github.com/sjdweb/mediatr.extensions.autofac/blob/master/LICENSE",
-    "projectUrl": "https://github.com/sjdweb/mediatr.extensions.autofac",
+    "licenseUrl": "https://github.com/sjdweb/MediatR.Extensions.AutofacBuilder/blob/master/LICENSE",
+    "projectUrl": "https://github.com/sjdweb/MediatR.Extensions.AutofacBuilder",
     "repository": {
       "type": "git",
-      "url": "git://github.com/sjdweb/mediatr.extensions.autofac"
+      "url": "git://github.com/sjdweb/MediatR.Extensions.AutofacBuilder"
     }
   },
   "buildOptions": {
