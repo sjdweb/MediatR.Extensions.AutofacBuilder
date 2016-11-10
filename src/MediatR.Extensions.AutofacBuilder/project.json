@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "authors": [
+    "Sean Drumm"
+  ],
+  "copyright": "Sean Drumm",
+  "packOptions": {
+    "tags": [
+      "mediator",
+      "autofac",
+      "mediatr"
+    ],
+    "licenseUrl": "https://github.com/sjdweb/mediatr.extensions.autofac/blob/master/LICENSE",
+    "projectUrl": "https://github.com/sjdweb/mediatr.extensions.autofac",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/sjdweb/mediatr.extensions.autofac"
+    }
+  },
+  "buildOptions": {
+    "debugType": "portable"
+  },
+  "dependencies": {
+    "MediatR": "2.1.0",
+    "Autofac": "4.2.0"
+  },
+  "frameworks": {
+    "netstandard1.6": {
+      "dependencies": {
+        "NETStandard.Library": "1.6.0"
+      }
+    }
+  }
+}

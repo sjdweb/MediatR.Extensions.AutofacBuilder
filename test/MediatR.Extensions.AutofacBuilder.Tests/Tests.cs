@@ -1,4 +1,4 @@
-﻿namespace mediatr.extensions.autofac.tests
+﻿namespace MediatR.Extensions.AutofacBuilder.Tests
 {
     using System.Reflection;
     using System.Threading.Tasks;
