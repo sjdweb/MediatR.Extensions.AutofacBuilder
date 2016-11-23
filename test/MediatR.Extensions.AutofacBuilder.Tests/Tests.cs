@@ -4,22 +4,23 @@
     using System.Threading.Tasks;
     using Autofac;
     using MediatR;
-    using Xunit;
+    using NUnit.Framework;
 
+    [TestFixture]
     public class Tests
     {
-        [Fact]
+        [Test]
         public async Task TestResolve()
         {
             var builder = new ContainerBuilder();
             builder.AddMediatR(typeof(Tests).GetTypeInfo().Assembly);
             var container = builder.Build();
 
-            var handler = container.Resolve<IAsyncRequestHandler<Ping, Unit>>();
+            var handler = container.ResolveNamed<IAsyncRequestHandler<Ping, Unit>>("async-handler");
             await handler.Handle(new Ping { Name = "Bob" });
         }
 
-        [Fact]
+        [Test]
         public async Task TestMediator()
         {
             var builder = new ContainerBuilder();
